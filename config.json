@@ -1,0 +1,79 @@
+{
+  "users": [
+    "568b8cf6b102974913a04f0c"
+  ],
+  "status": 1,
+  "serverOptions": {
+    "allowOrigin": [
+      "http://www.toroback.com",
+      "http://toroback.com",
+      "http://localhost:4200"
+    ],
+    "a2sVersion": "0",
+    "git": null,
+    "port": 4533,
+    "secret_key": "fcOzfMNX0P7stdHN6khFE6k3a",
+    "host": "http://a2s.a2system.net"
+  },
+  "gitOptions": null,
+  "storageOptions": {
+    "gcloud": {
+      "projectId": "massive-current-864",
+      "keyFile": {
+        "cert": "gcloud/keyFile.json",
+        "name": "gcloud/key.json"
+      }
+    }
+  },
+  "dbOptions": {
+    "pass": "8qz9o8LV",
+    "user": "577a245320b48d8a124f78cc_testTitanium",
+    "host": "mongodb://localhost/577a245320b48d8a124f78cc_testTitanium",
+    "name": "577a245320b48d8a124f78cc_testTitanium"
+  },
+  "socialOptions": {
+    "fb": {
+      "secretKey": null,
+      "clientId": null
+    }
+  },
+  "pushOptions": {
+    "ios": null,
+    "gcm": {
+      "apikey": null,
+      "url": null
+    }
+  },
+  "mqttOptions": {
+    "options": {
+      "protocolVersion": null,
+      "protocolId": null
+    },
+    "port": null,
+    "host": "a"
+  },
+  "redisOptions": {
+    "prefix": null,
+    "port": null,
+    "host": null
+  },
+  "_id": "577a245320b48d8a124f78cc",
+  "app_key": "RKhyMQMDfB4rOF7",
+  "creator": "568b8cf6b102974913a04f0c",
+  "name": "testTitanium",
+  "__v": 0,
+  "path": "/opt/a2server/desa/install/apps/testTitanium/",
+  "sessionOptions": {
+    "name": "577a245320b48d8a124f78cc_testTitanium"
+  },
+  "aclOptions": {
+    "enableAcl": false,
+    "noAcl": {
+      "users": {
+        "login": true,
+        "confirm": true,
+        "newDocument": true
+      }
+    }
+  }
+}
